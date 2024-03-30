@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&display=swap');
+body { 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.form-wrapper {
+    display: flex;
+    width: 98vw;
+    height: auto;
+    margin: 2vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.form-wrapper-theme {
+    width: 98vw;
+    height: 80vh;
+    position: absolute;
+    z-index: 20;
+    background-image: url(/resources/assets/images/backgrounds/login-wrapper.jpg);
+    background-position: center;
+    background-size: cover;
+    display: none;
+}
+
+.form-container {
+    display: block;
+    margin: auto;
+    margin-top: 5vh;
+    height: fit-content;
+    width: 25vw;
+    color: rgb(213, 213, 213);
+    border-radius: 20px;
+    background-color: #000;
+    background-size: cover;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    z-index: 22;
+    padding: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: solid 2px rgb(122, 0, 0);
+    background-image: url(/resources/assets/images/backgrounds/login.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+.form-header {
+    font-family: 'Kanit', sans-serif;
+}
+
+.form-wel-head{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.form-welcome-container {
+    margin: auto;
+    margin-top: 5vh;
+    height: 70vh;
+    width: 60vw;
+    color: rgb(255, 255, 255); 
+    background: rgba(0, 28, 29, 0.808);
+    border: solid 2px rgb(126, 0, 0);
+    z-index: 21;
+    background-image: url(/resources/assets/images/backgrounds/forms-bg-transformed.jpeg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.welcome-overlap{  
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background:rgba(0, 0, 0, 0.774);
+}
+
+.form-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid rgb(93, 0, 0) 2px;
+    font-size: 20px;
+    color: white;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.form-input::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.form-submit {
+    margin: auto;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.form-label,
+.form-input {}
+
+ 
+
+select option {
+    background-color: transparent;
+    /* Set background color */
+    border: solid rgb(255, 0, 0) 2px;
+    /* Set border */
+    color: white;
+    /* Set text color */
+    background-color: #000;
+}
+
+/* Style for selected option */
+select option:checked {
+    color: white;
+    /* Set text color for selected option */
+    background-color: #000;
+}
+
+/* Style for option on focus */
+select option:focus {
+    color: white;
+    background-color: rgb(112, 16, 16);
+    /* Set background color on focus */
+    outline: none;
+    /* Remove default blue outline */
+}
+
+.error-message{
+    color: rgb(255, 43, 43);
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .form-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90vw;
+        height: fit-content;
+        margin: auto;
+    }
+
+    .form-wrapper-theme {
+        display: none;
+    }
+
+    .form-container {
+        display: block;
+        margin-top: 10vh;
+        width: 100vw;
+        padding: 30px;
+        ;
+        padding-top: 15%;
+
+
+    }
+
+    .form-welcome-container {
+        display: none;
+
+    }
+}
