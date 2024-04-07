@@ -44,7 +44,7 @@ body {
     padding-top: 5%;
     padding-bottom: 5%;
     border: solid 2px rgb(122, 0, 0);
-    background-image: url(/resources/assets/images/backgrounds/login.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/LogicPulseStudios/profitverse@0972879c3c8162dfa52b5c8070d7e57df191c080/login.jpg);
     background-size: cover;
     background-position: top center;
 }
@@ -66,7 +66,7 @@ body {
     background: rgba(0, 28, 29, 0.808);
     border: solid 2px rgb(126, 0, 0);
     z-index: 21;
-    background-image: url(/resources/assets/images/backgrounds/forms-bg-transformed.jpeg);
+    background-image: url(https://cdn.jsdelivr.net/gh/LogicPulseStudios/profitverse@0972879c3c8162dfa52b5c8070d7e57df191c080/forms-bg-transformed.jpeg);
     background-position: center;
     background-size: cover;
     overflow: hidden;
