@@ -62,7 +62,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     object-fit: cover;
-    opacity: 0.7; /* Adjust the opacity as needed */
+    opacity: 100%; /* Adjust the opacity as needed */
 }
 
 .navbar-nav {
