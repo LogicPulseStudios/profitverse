@@ -17,8 +17,9 @@ body {
     background-color: #000;
     overflow-x: hidden;
     color: white;
+    background-image:url('imgbg.png');
     background-repeat: no-repeat; 
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 
